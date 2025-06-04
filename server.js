@@ -7,7 +7,7 @@ const app = express();
 const port = 4000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to flipkart");
+  res.send("Welcome to Amazon");
 });
 
 app.get("/mobile", (req, res) => {
